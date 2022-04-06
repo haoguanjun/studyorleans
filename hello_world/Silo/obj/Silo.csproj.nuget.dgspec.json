@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/whao/temp/dotnet/orleans/hello_world/Silo/Silo.csproj": {}
+  },
+  "projects": {
+    "/Users/whao/temp/dotnet/orleans/hello_world/GrainInterfaces/GrainInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/whao/temp/dotnet/orleans/hello_world/GrainInterfaces/GrainInterfaces.csproj",
+        "projectName": "GrainInterfaces",
+        "projectPath": "/Users/whao/temp/dotnet/orleans/hello_world/GrainInterfaces/GrainInterfaces.csproj",
+        "packagesPath": "/Users/whao/.nuget/packages/",
+        "outputPath": "/Users/whao/temp/dotnet/orleans/hello_world/GrainInterfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/whao/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/whao/temp/dotnet/orleans/hello_world/Grains/Grains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/whao/temp/dotnet/orleans/hello_world/Grains/Grains.csproj",
+        "projectName": "Grains",
+        "projectPath": "/Users/whao/temp/dotnet/orleans/hello_world/Grains/Grains.csproj",
+        "packagesPath": "/Users/whao/.nuget/packages/",
+        "outputPath": "/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/whao/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/whao/temp/dotnet/orleans/hello_world/GrainInterfaces/GrainInterfaces.csproj": {
+                "projectPath": "/Users/whao/temp/dotnet/orleans/hello_world/GrainInterfaces/GrainInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/whao/temp/dotnet/orleans/hello_world/Silo/Silo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/whao/temp/dotnet/orleans/hello_world/Silo/Silo.csproj",
+        "projectName": "Silo",
+        "projectPath": "/Users/whao/temp/dotnet/orleans/hello_world/Silo/Silo.csproj",
+        "packagesPath": "/Users/whao/.nuget/packages/",
+        "outputPath": "/Users/whao/temp/dotnet/orleans/hello_world/Silo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/whao/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/whao/temp/dotnet/orleans/hello_world/GrainInterfaces/GrainInterfaces.csproj": {
+                "projectPath": "/Users/whao/temp/dotnet/orleans/hello_world/GrainInterfaces/GrainInterfaces.csproj"
+              },
+              "/Users/whao/temp/dotnet/orleans/hello_world/Grains/Grains.csproj": {
+                "projectPath": "/Users/whao/temp/dotnet/orleans/hello_world/Grains/Grains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Orleans.Server": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

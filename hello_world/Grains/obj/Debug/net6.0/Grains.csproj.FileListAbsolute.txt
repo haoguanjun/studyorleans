@@ -1,0 +1,17 @@
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/bin/Debug/net6.0/Grains.deps.json
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/bin/Debug/net6.0/Grains.dll
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/bin/Debug/net6.0/ref/Grains.dll
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/bin/Debug/net6.0/Grains.pdb
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/bin/Debug/net6.0/GrainInterfaces.dll
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/bin/Debug/net6.0/GrainInterfaces.pdb
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.csproj.AssemblyReference.cache
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.orleans.g.args.txt
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.orleans.g.cs
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.GeneratedMSBuildEditorConfig.editorconfig
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.AssemblyInfoInputs.cache
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.AssemblyInfo.cs
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.csproj.CoreCompileInputs.cache
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.csproj.CopyComplete
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.dll
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/ref/Grains.dll
+/Users/whao/temp/dotnet/orleans/hello_world/Grains/obj/Debug/net6.0/Grains.pdb
